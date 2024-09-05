@@ -1,0 +1,14 @@
+C:\Users\benit\source\repos\DataWeek1Test\DataWeek1Test\bin\Debug\net8.0\DataWeek1Test.exe
+C:\Users\benit\source\repos\DataWeek1Test\DataWeek1Test\bin\Debug\net8.0\DataWeek1Test.deps.json
+C:\Users\benit\source\repos\DataWeek1Test\DataWeek1Test\bin\Debug\net8.0\DataWeek1Test.runtimeconfig.json
+C:\Users\benit\source\repos\DataWeek1Test\DataWeek1Test\bin\Debug\net8.0\DataWeek1Test.dll
+C:\Users\benit\source\repos\DataWeek1Test\DataWeek1Test\bin\Debug\net8.0\DataWeek1Test.pdb
+C:\Users\benit\source\repos\DataWeek1Test\DataWeek1Test\obj\Debug\net8.0\DataWeek1Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\benit\source\repos\DataWeek1Test\DataWeek1Test\obj\Debug\net8.0\DataWeek1Test.AssemblyInfoInputs.cache
+C:\Users\benit\source\repos\DataWeek1Test\DataWeek1Test\obj\Debug\net8.0\DataWeek1Test.AssemblyInfo.cs
+C:\Users\benit\source\repos\DataWeek1Test\DataWeek1Test\obj\Debug\net8.0\DataWeek1Test.csproj.CoreCompileInputs.cache
+C:\Users\benit\source\repos\DataWeek1Test\DataWeek1Test\obj\Debug\net8.0\DataWeek1Test.dll
+C:\Users\benit\source\repos\DataWeek1Test\DataWeek1Test\obj\Debug\net8.0\refint\DataWeek1Test.dll
+C:\Users\benit\source\repos\DataWeek1Test\DataWeek1Test\obj\Debug\net8.0\DataWeek1Test.pdb
+C:\Users\benit\source\repos\DataWeek1Test\DataWeek1Test\obj\Debug\net8.0\DataWeek1Test.genruntimeconfig.cache
+C:\Users\benit\source\repos\DataWeek1Test\DataWeek1Test\obj\Debug\net8.0\ref\DataWeek1Test.dll
