@@ -69,7 +69,7 @@ namespace DataWeek1Test.Service
         public static IEnumerable<Threat> LoadThreatsFromJsonAsync(string filePath)
             => ReadFromJsonAsync<IEnumerable<Threat>>(filePath) ?? Enumerable.Empty<Threat>();
 
-        public static DefenceStrategyNode? BuildDefenseTreeAsync(string filePath)
+        public static DefenceStrategyNode? BuildDefenseTree(string filePath)
             => (ReadFromJsonAsync<IEnumerable<DefenceStrategyNode>>(filePath) ?? Enumerable.Empty<DefenceStrategyNode>())
                 .Aggregate(new DefenceStrategyNode(), BinarySearchTree.Insert);
 

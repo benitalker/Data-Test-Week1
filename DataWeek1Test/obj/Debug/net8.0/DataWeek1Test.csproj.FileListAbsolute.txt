@@ -12,3 +12,4 @@ C:\Users\benit\source\repos\DataWeek1Test\DataWeek1Test\obj\Debug\net8.0\refint\
 C:\Users\benit\source\repos\DataWeek1Test\DataWeek1Test\obj\Debug\net8.0\DataWeek1Test.pdb
 C:\Users\benit\source\repos\DataWeek1Test\DataWeek1Test\obj\Debug\net8.0\DataWeek1Test.genruntimeconfig.cache
 C:\Users\benit\source\repos\DataWeek1Test\DataWeek1Test\obj\Debug\net8.0\ref\DataWeek1Test.dll
+C:\Users\benit\source\repos\DataWeek1Test\DataWeek1Test\obj\Debug\net8.0\DataWeek1Test.sourcelink.json

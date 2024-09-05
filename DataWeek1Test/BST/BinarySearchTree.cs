@@ -153,5 +153,58 @@ namespace DataWeek1Test.BST
                 PropertyNamingPolicy = JsonNamingPolicy.CamelCase
             });
         }
+
+        public static DefenceStrategyNode? Remove(DefenceStrategyNode? root, int minSeverity)
+        {
+            if (root == null) return null;
+
+            if (minSeverity < root.MinSeverity)
+            {
+                root = root with { Left = Remove(root.Left, minSeverity) };
+            }
+            else if (minSeverity > root.MinSeverity)
+            {
+                root = root with { Right = Remove(root.Right, minSeverity) };
+            }
+            else
+            {
+                // Case 1: Node has no children (leaf)
+                if (root.Left == null && root.Right == null)
+                {
+                    return null;
+                }
+
+                // Case 2: Node has one child
+                if (root.Left == null)
+                {
+                    return root.Right;
+                }
+                if (root.Right == null)
+                {
+                    return root.Left;
+                }
+
+                // Case 3: Node has two children
+                var successor = FindMin(root.Right);
+                root = root with
+                {
+                    MinSeverity = successor.MinSeverity,
+                    MaxSeverity = successor.MaxSeverity,
+                    Defenses = successor.Defenses,
+                    Right = Remove(root.Right, successor.MinSeverity)
+                };
+            }
+
+            return root;
+        }
+
+        private static DefenceStrategyNode FindMin(DefenceStrategyNode node)
+        {
+            while (node.Left != null)
+            {
+                node = node.Left;
+            }
+            return node;
+        }
     }
 }

@@ -35,16 +35,7 @@
             "Activate basic firewall"
           ],
           "left": null,
-          "right": {
-            "minSeverity": 5,
-            "maxSeverity": 6,
-            "defenses": [
-              "Isolate affected systems",
-              "Deploy malware scan"
-            ],
-            "left": null,
-            "right": null
-          }
+          "right": null
         }
       },
       "right": {
@@ -126,16 +117,7 @@
             "Update security policies"
           ],
           "left": null,
-          "right": {
-            "minSeverity": 27,
-            "maxSeverity": 28,
-            "defenses": [
-              "Evaluate network traffic",
-              "Remove unauthorized access"
-            ],
-            "left": null,
-            "right": null
-          }
+          "right": null
         }
       },
       "right": {
@@ -215,16 +197,7 @@
           "Activate basic firewall"
         ],
         "left": null,
-        "right": {
-          "minSeverity": 5,
-          "maxSeverity": 6,
-          "defenses": [
-            "Isolate affected systems",
-            "Deploy malware scan"
-          ],
-          "left": null,
-          "right": null
-        }
+        "right": null
       }
     },
     "right": {
@@ -296,16 +269,7 @@
         "Activate basic firewall"
       ],
       "left": null,
-      "right": {
-        "minSeverity": 5,
-        "maxSeverity": 6,
-        "defenses": [
-          "Isolate affected systems",
-          "Deploy malware scan"
-        ],
-        "left": null,
-        "right": null
-      }
+      "right": null
     }
   },
   {
@@ -321,25 +285,6 @@
     "defenses": [
       "Rate-limit IPs",
       "Activate basic firewall"
-    ],
-    "left": null,
-    "right": {
-      "minSeverity": 5,
-      "maxSeverity": 6,
-      "defenses": [
-        "Isolate affected systems",
-        "Deploy malware scan"
-      ],
-      "left": null,
-      "right": null
-    }
-  },
-  {
-    "minSeverity": 5,
-    "maxSeverity": 6,
-    "defenses": [
-      "Isolate affected systems",
-      "Deploy malware scan"
     ],
     "left": null,
     "right": null
@@ -480,16 +425,7 @@
           "Update security policies"
         ],
         "left": null,
-        "right": {
-          "minSeverity": 27,
-          "maxSeverity": 28,
-          "defenses": [
-            "Evaluate network traffic",
-            "Remove unauthorized access"
-          ],
-          "left": null,
-          "right": null
-        }
+        "right": null
       }
     },
     "right": {
@@ -564,16 +500,7 @@
         "Update security policies"
       ],
       "left": null,
-      "right": {
-        "minSeverity": 27,
-        "maxSeverity": 28,
-        "defenses": [
-          "Evaluate network traffic",
-          "Remove unauthorized access"
-        ],
-        "left": null,
-        "right": null
-      }
+      "right": null
     }
   },
   {
@@ -592,25 +519,6 @@
     "defenses": [
       "Perform system reboot",
       "Update security policies"
-    ],
-    "left": null,
-    "right": {
-      "minSeverity": 27,
-      "maxSeverity": 28,
-      "defenses": [
-        "Evaluate network traffic",
-        "Remove unauthorized access"
-      ],
-      "left": null,
-      "right": null
-    }
-  },
-  {
-    "minSeverity": 27,
-    "maxSeverity": 28,
-    "defenses": [
-      "Evaluate network traffic",
-      "Remove unauthorized access"
     ],
     "left": null,
     "right": null
